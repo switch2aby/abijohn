@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="28px" viewBox="0 0 34 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Modals/Navigation_bar_back_black_750" transform="translate(-32.000000, -30.000000)" fill="#D0011B">
+            <path d="M32.3458464,43.899702 C32.2344844,43.4128653 32.3674062,42.8822087 32.7401958,42.5094191 L45.1210004,30.1286144 L47.2423208,32.2499348 L37.4922555,42 L66,42 L66,45 L36.6775519,45 L47.2419911,55.5644392 L45.1206707,57.6857596 L32.7398661,45.3049549 C32.3591256,44.9242144 32.2268495,44.3892927 32.3458464,43.899702 Z" id="icon"></path>
+        </g>
+    </g>
+</svg>

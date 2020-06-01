@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="40px" viewBox="0 0 28 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icn_chevron_gray</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.2%" y="-1.0%" width="104.4%" height="102.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Insurance-payment_same-card_demo" transform="translate(-633.000000, -1656.000000)" fill="#C60C30">
+            <g id="Group-2" filter="url(#filter-1)" transform="translate(32.000000, 620.000000)">
+                <polygon id="icn_chevron_gray" points="608 1042.68432 618.572033 1054 608 1065.31668 609.713983 1067 622 1054 609.713983 1041"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
