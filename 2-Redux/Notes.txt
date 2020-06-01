@@ -1,0 +1,75 @@
+
+
+
+
+Redux 
+
+
+--------------------------------------------------------
+step-1: Indentify UI appln's state / model
+--------------------------------------------------------
+
+
+e.g shop-web-ui
+
+
+    - products
+    - reviews
+    - cart
+    - orders
+    - user
+    - promotatios
+
+
+
+--------------------------------------------------------
+step-2: Indentify action(s) which cause state change
+--------------------------------------------------------
+
+
+    - LOAD_PRODUCTS
+    - LOAD_REVIEWS
+    - ADD_NEW_REVIEW
+    - BUY
+    - LOGIN
+    - CHECKOUT
+    .....
+
+
+
+
+--------------------------------------------------------
+step-3: define action makers/creator(s)
+--------------------------------------------------------
+
+
+e.g
+
+
+function loadProducts(type,size){
+    // n/w call
+    return {type:'LOAD_PRODUCTS',products}
+}
+
+
+--------------------------------------------------------
+step-4: define reducer(s) to process action(s)  
+--------------------------------------------------------
+
+
+e.g
+
+function productsReducer(state,action){
+    // return new-state
+}
+
+
+--------------------------------------------------------
+step-5: combine all reducr as root reducer ==> 'function composition'
+--------------------------------------------------------
+
+
+
+--------------------------------------------------------
+step-6: create store mwith root-reducer
+--------------------------------------------------------
